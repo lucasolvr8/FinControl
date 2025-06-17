@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ganhos e Gastos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FinControl</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="ganhos_gastos.html">Ganhos e Gastos</a>
+      <a href="economias.html">Economias</a>
+      <a href="resumo.html">Resumo</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Ganhos</h2>
+    <input type="text" id="ganhoDescricao" placeholder="Descrição">
+    <input type="number" id="ganhoValor" placeholder="Valor">
+    <button onclick="adicionarGanho()">Adicionar Ganho</button>
+    <ul id="listaGanhos"></ul>
+
+    <h2>Gastos</h2>
+    <input type="text" id="gastoDescricao" placeholder="Descrição">
+    <input type="number" id="gastoValor" placeholder="Valor">
+    <button onclick="adicionarGasto()">Adicionar Gasto</button>
+    <ul id="listaGastos"></ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

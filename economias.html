@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Economias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FinControl</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="ganhos_gastos.html">Ganhos e Gastos</a>
+      <a href="economias.html">Economias</a>
+      <a href="resumo.html">Resumo</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Metas de Economia</h2>
+    <input type="text" id="metaDescricao" placeholder="Descrição da Meta">
+    <input type="number" id="metaValor" placeholder="Valor Alvo">
+    <input type="number" id="metaAtual" placeholder="Valor Atual">
+    <button onclick="adicionarMeta()">Adicionar Meta</button>
+    <ul id="listaMetas"></ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
